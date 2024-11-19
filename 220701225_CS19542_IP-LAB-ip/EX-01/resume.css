@@ -1,0 +1,210 @@
+*{
+    background-color: black;
+}
+.flex-container{
+    background-color: rgb(15, 9, 75);
+    border-radius:30px;
+    height:1000px;
+}
+
+#one{
+    position:absolute;
+    height:250px;
+    width:1310px;
+    background-color: rgb(116, 116, 116);
+    z-index:1;
+    margin-left:20px;
+    border-radius:30px;
+}
+#two{
+position :absolute;
+height:250px;
+width:250px;
+border-radius:50%;
+background-color: rgb(15, 9, 75);
+z-index:2;
+margin-left: 1050px;
+margin-top:150px;
+}
+#first{
+margin-top:400px;
+color:white;
+position:absolute;
+background-color: rgb(15,9,75);
+}
+#three{
+position:absolute;
+height:800px;
+width:250px;
+z-index:1;
+margin-top:280px;
+margin-left:1052px;
+border-radius:30px;
+background-color:rgb(116,116,116);
+}
+#aboutme{
+background-color: rgb(116,116,116);
+position:absolute;
+margin-left:30px;
+margin-top:30px;
+color:white;
+font-size:xx-large;
+}
+#desc1{
+background-color: rgb(116,116,116);
+position:absolute;
+margin-top: 100px;
+width:700px;
+margin-left:70px;
+font-size: large;
+color:white;
+line-height: 30px;
+}
+#name{
+font-size: xx-large;
+margin-top:40px;
+margin-left:1050px;
+position:absolute;
+background-color: rgb(116,116,116);
+color:white;
+}
+#role{
+font-size: larger;
+font-weight: 700;
+margin-left:1090px;
+margin-top:85px;
+background-color: rgb(116,116,116);
+color:white;
+}
+#edu{
+margin-top:290px;
+background-color: rgb(15, 9, 75);
+position: absolute;
+color:white;
+margin-left:30px;
+}
+#skill{
+margin-top:65px;
+background-color: rgb(15, 9, 75);
+position: absolute;
+color:white;
+margin-left:30px;
+}
+
+table {
+border-collapse: collapse;
+width: 70%;
+margin-top:350px;
+margin-left:50px;
+background-color: rgb(15, 9, 75);
+color:white;
+}
+
+th, td {
+padding: 15px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+background-color: rgb(15, 9, 75);
+
+}
+td:hover,th:hover{
+background-color: rgb(116, 116, 116);
+}
+#ski{
+background-color: rgb(15, 9, 75);
+position:absolute;
+color:white;
+margin-top:100px;
+}
+.list{
+background-color: rgb(15, 9, 75);
+line-height: 40px;
+margin-left:50px;
+font-size: large;
+}
+.lisl{
+background-color: rgb(15, 9, 75);
+line-height: 40px;
+margin-left:50px;
+font-size: large;
+color:white;
+
+}
+#lanl{
+background-color: rgb(15, 9, 75);
+margin-top:400px;
+}
+#lang{
+margin-top:350px;
+background-color: rgb(15, 9, 75);
+position: absolute;
+color:white;
+margin-left:30px;
+}
+#cont{
+margin-top:160px;
+font-size: large;
+background-color: rgb(116, 116, 116);
+margin-left:20px;
+color:white;
+}
+#job{
+margin-top:50px;
+font-size: large;
+background-color: rgb(116, 116, 116);
+margin-left:20px;
+color:white;
+}
+.contact{
+background-color: rgb(116, 116, 116);
+color:white;
+margin-left:10px;
+}
+#jg2{
+background-color: rgb(116, 116, 116);
+color:white;
+position:absolute;
+}
+#jg1{
+background-color: rgb(116, 116, 116);
+color:white;
+position:absolute;
+margin-top:40px;
+}
+#jg0{
+background-color: rgb(116, 116, 116);
+color:white;
+position:absolute;
+margin-top:60px;
+}
+#ref{
+background-color: rgb(116, 116, 116);
+color:white;
+
+margin-top:120px;
+margin-left:10px;
+}
+#p1{
+background-color: rgb(116, 116, 116);
+color:white;
+margin-left:20px;
+}
+#dp{
+background-color: rgb(116,116,116);
+color:white;
+margin-top:30px;
+margin-left:30px;
+margin-right:20px;
+margin-bottom:40px;
+width:200px;
+height:200px;
+border-radius:50%;
+
+}
+#sign{
+width:200px;
+height:50px;
+margin-left:10px;
+border-width:10px;
+border-color: white;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartment Visitors Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <button id="admin-btn">Admin</button>
+        <strong><h1>APARTMENT VISITORS MANAGEMENT SYSTEM</h1></strong>
+    </header>
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>This system helps manage visitor information for the apartment complex.</p>
+    </section>
+    <section id="visitor-form">
+        <h2>Visitors Registration</h2>
+        <form id="visitor-details">
+            <label for="visitor-name">Name:</label>
+            <input type="text" id="visitor-name" required>
+
+            <label for="visitor-contact">Contact Number:</label>
+            <input type="text" id="visitor-contact" required>
+
+            <label for="visitor-relation">How Are You Related to the Resident?:</label>
+            <input type="text" id="visitor-relation" required>
+
+            <label for="room-number">Owner's Room Number:</label>
+            <input type="text" id="room-number" required>
+
+            <label for="visit-reason">Purpose of Visit:</label>
+            <textarea id="visit-reason" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="admin-section" style="display:none;">
+        <h2>Admin Dashboard</h2>
+        <div id="summary">
+            <p>Total Visitors Today: <span id="total-visitors">0</span></p>
+            <p>New Visitors: <span id="new-visitors">0</span></p>
+            <p>Regular Visitors: <span id="regular-visitors">0</span></p>
+        </div>
+        <h3>Visitors Log</h3>
+        <table id="visitors-log">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contact Number</th>
+                    <th>Relation</th>
+                    <th>Room Number</th>
+                    <th>Reason</th>
+                    <th>Time of Visit</th>
+                </tr>
+            </thead>
+            <tbody>
+             
+            </tbody>
+        </table>
+
+        <button id="back-btn">Back</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

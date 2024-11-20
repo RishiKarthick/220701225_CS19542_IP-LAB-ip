@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #15140f, #3d002d);
+    color: #650568;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #000000aa;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+#admin-btn {
+    background-color: #6b0065;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#admin-btn:hover {
+    background-color: #ff00ee;
+}
+
+/* About Us Section */
+#about-us {
+    background-color: #000000aa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-us h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#about-us p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #fff3f3;
+}
+
+/* Visitors Form */
+#visitor-form {
+    background-color: #000000aa;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(245, 245, 245, 0.1);
+}
+
+#visitor-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    display: block;
+    color: #f7f2f2;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    font-size: 1rem;
+    border: 2px solid #720160;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #f923f5;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #7e0470;
+    color: rgb(238, 234, 234);
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a9026f;
+}
+
+/* Admin Section */
+#admin-section {
+    background-color: #000000aa;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#admin-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #fafafa;
+}
+
+#summary p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    color: #fbfbfb;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #810074;
+    color: #ffffffaa;
+}
+
+td {
+    background-color: #000000aa;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(249, 212, 35, 0.2);
+}
+
+table tr:hover {
+    background-color: rgba(255, 78, 80, 0.2);
+}
